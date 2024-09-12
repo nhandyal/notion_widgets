@@ -1,0 +1,19 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "typescript.validate.enable": true,
+  "typescript.tsdk": "./ts/node_modules/typescript/lib",
+  // Add other languages you want to auto format on save.
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "python.analysis.extraPaths": [
+    "./python/atb_research/lib"
+  ]
+}
