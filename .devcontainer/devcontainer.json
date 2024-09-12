@@ -1,0 +1,13 @@
+{
+  "name": "notion_widgets",
+  "image": "nhandyal/ubuntu_22.04:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscode.typescript-language-features",
+        "Codeium.codeium",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
